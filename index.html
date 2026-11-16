@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Aprendendo JavaScript</h1>
+        <p>Praticando lógica de programação!</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>1. Calculadora de desconto</h2>
+            <input type="number" id="compra" placeholder="Valor da compra">
+            <button onclick="calcularDesconto()">Calcular</button>
+            <p id="resultadoDesconto"></p>
+        </section>
+
+        <section class="card">
+            <h2>2. Verificador de aprovação</h2>
+            <input type="number" id="nota" placeholder="Digite a nota (0 a 10)">
+            <button onclick="verificarAprovacao()">Verificar</button>
+            <p id="resultadoNota"></p>
+        </section>
+
+        <section class="card">
+            <h2>3. Classificação de notas</h2>
+            <input type="number" id="notaClassificacao" placeholder="Digite a nota">
+            <button onclick="classificarNota()">Classificar</button>
+            <p id="resultadoClassificacao"></p>
+        </section>
+
+        <section class="card">
+            <h2>4. Identificador de números</h2>
+            <input type="number" id="numero" placeholder="Digite um número">
+            <button onclick="identificarNumero()">Identificar</button>
+            <p id="resultadoNumero"></p>
+        </section>
+
+        <section class="card">
+            <h2>5. Calculadora de soma</h2>
+            <input type="number" class="valor" placeholder="Primeiro número">
+            <input type="number" class="valor" placeholder="Segundo número">
+            <input type="number" class="valor" placeholder="Terceiro número">
+            <input type="number" class="valor" placeholder="Quarto número">
+            <input type="number" class="valor" placeholder="Quinto número">
+            <button onclick="calcularSoma()">Somar</button>
+            <p id="resultadoSoma"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto desenvolvido para atividade do curso de programação.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
